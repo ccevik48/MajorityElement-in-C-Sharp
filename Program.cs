@@ -11,7 +11,7 @@ namespace MajorityElement
             int currMaxEle = a[0];
             if(a.Length == 1)
             {
-                return a[0];
+                return currMaxEle;
             }
             for(int i = 0; i < a.Length - 1; i++)
             {
