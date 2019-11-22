@@ -9,6 +9,10 @@ namespace MajorityElement
             int count = 1;
             int currMaxCnt = 0;
             int currMaxEle = a[0];
+            if(a.Length == 1)
+            {
+                return a[0];
+            }
             for(int i = 0; i < a.Length - 1; i++)
             {
                 if(a[i] == a[i + 1])
